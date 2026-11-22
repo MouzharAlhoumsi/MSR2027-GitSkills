@@ -1,0 +1,15 @@
+
+# Data analysis
+numpy>=1.26,<3
+pandas>=2.2,<3
+
+# Visualization
+matplotlib>=3.8,<4
+
+# Notebook environment
+ipython>=8,<10
+jupyterlab>=4.2,<5
+ipykernel>=6.29,<8
+
+# Testing
+pytest>=8,<10

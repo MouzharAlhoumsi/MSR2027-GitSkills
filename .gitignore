@@ -1,0 +1,67 @@
+
+# ============================================================
+# MSR 2027 GitSkills — Git Ignore Rules
+# ============================================================
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Python packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# GitSkills dataset
+# Download separately from the original dataset provider.
+data/raw/*.db
+data/raw/*.sqlite
+data/raw/*.sqlite3
+data/raw/*.db-journal
+data/raw/*.db-wal
+data/raw/*.db-shm
+
+# Other local data files
+data/interim/
+data/processed/
+data/cache/
+
+# Temporary notebook exports
+*.nbconvert.ipynb
+
+# Editor settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
